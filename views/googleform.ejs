@@ -1,0 +1,29 @@
+<%- include('partials/header') %>
+
+
+
+<form action="/signup" method="POST">
+  <div class="form-group">
+    <label for="name">Name *</label>
+    <input type="text" class="form-control" name="name" required>
+  </div>
+  <div class="form-group">
+    <label for="Role">Role *</label>
+    <select id="role" name="role" class="form-control" required>
+      <option value="volvo">Click To Select Option </option>
+      <option value="Teacher">Teacher</option>
+      <option value="Student">Student</option>
+    </select>
+    <!-- <input type="email" class="form-control" name=""> -->
+  </div>
+  <div class="form-group role" id="teacher" required>
+    <label for="teacher-id">Teacher-Id *</label>
+    <input type="text" class="form-control " name="teacherid">
+  </div>
+  <div class="form-group role" id="student" required>
+    <label for="roll-no">Roll No. *</label>
+    <input type="text" class="form-control " name="rollno">
+  </div>
+  <button type="submit" class="btn btn-dark">Save</button>
+
+</form>

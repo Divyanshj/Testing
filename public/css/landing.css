@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden !important;
+  background-color: #E8ECEF;
+}
+
+/***********************************************NAVBAR**************************************************************************************************/
+.landing-navbar {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.my_brand {
+  width: 16.5vw;
+  height: 4.5vw;
+}
+
+.navbg {
+  background-color: #E8ECEF;
+  padding: 1vw 1vw;
+}
+
+.nav-pad {
+  margin-right: 0.5vw;
+  font-family: 'Jura', sans-serif;
+}
+
+/************main@@@@@@@@@@@@@@@@******************************/
+.landing-content {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+}
+
+.landing-headimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.landing-heading {
+  font-family: 'Acme', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  margin-top: 15px;
+  font-size: 40px;
+}
+
+.landing-subheading {
+  margin-top: 15px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
+}
+
+.landing-getstarted {
+  margin-top: 15px;
+  font-family: 'Jura', sans-serif;
+}
